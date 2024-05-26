@@ -1,0 +1,139 @@
+/*
+    calculator.css 
+    Description: A more graphical design used ontop of the text based design of
+                 website provides for us to copy from canvas.
+    Author: Asheesh Yadav
+    Date: May 31st, 2024
+*/
+
+/* This is so the gray banner can connect all the way to the top */
+html, body, title{
+    margin: 0;
+    padding: 0;
+}
+
+/* This is for 2nd Container(the container thats insde of another container) */
+.sec1{
+    border: 1px solid rgb(198, 224, 247); 
+    background-color:aliceblue;
+    border-radius: 10px;
+    width: 60%; 
+    height: 60%;
+    margin-left: 30px
+    
+}
+
+#title {
+    font-family:Arial; 
+    font-weight: 400;
+    padding-top: 75px;
+    margin-left: 30px;
+    color: black;
+} 
+
+/* Design replication of the table  */
+table, th, td{
+    border: 1px solid  black;
+    padding-left: 10px;
+    padding-right: 100px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+table{ 
+    border-collapse: collapse;
+    margin-left: 20px;
+
+}
+td{
+    font-weight:550;
+    
+}
+th{
+
+    font-weight: 5000px;
+    background-color: lightgray;
+    
+}
+
+
+.sec1 h2{
+  color: rgb(190, 14, 14);   
+}
+
+/* This is for all the text boxes to be the same size 
+   and position */
+input[type = "text"]{
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 37px;
+    height: 30px;
+    padding-bottom: 0;
+    margin-bottom: -29px;
+}
+
+main h2, h3{
+    margin-left:20px; 
+}
+
+/* button design replications */
+#addRow {
+    margin-left: 20px; 
+}
+
+#mean{
+    width: 100px; 
+    height: 35px;
+    color: white; 
+    background-color: rgb(156, 21, 21);
+    border-radius: 3px;
+    position: relative;
+    left: 708.5px; 
+}
+#weight{
+    width: 100px; 
+    height: 35px;
+    color: white; 
+    background-color: rgb(156, 21, 21);
+    border-radius: 3px;
+    position: relative;
+    left: 700px; 
+}
+
+#weight, #mean{
+    margin-bottom: 20px;
+    border: none; 
+}
+
+
+main h3{
+    padding-bottom: 15px;
+    font-weight: 300;
+}
+
+body{
+    background-color: rgb(156, 21, 21);
+}
+
+.con1 {
+   
+    background-color: white;
+    padding-bottom: 40px; 
+    width: 94.5%;   
+    margin-left: 50px;
+    margin-top: 0px; 
+}
+
+/* this is for the gray banners to ensure they stick out from the top and bottom only */
+.color-div-top, .color-div-bottom {
+    background-color: rgb(55, 54, 54);
+    height: 30px; 
+    width: 94.53%;
+    margin-left: 50px;
+    margin-top: 100;
+}
+
+/* this allows for me to pad the white box to create an illusion that it is "mergeing"
+   with the gray banner */
+.container{
+    margin-top: -27px; 
+}

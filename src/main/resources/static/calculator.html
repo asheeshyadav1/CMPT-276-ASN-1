@@ -1,0 +1,62 @@
+<!-- /*
+    calculator.html  
+    Description: Text based design of the website that was posted on Canvas
+                 for assignment 1. 
+    Author: Asheesh Yadav
+    Date: May 31st, 2024
+*/ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- General Header with references and all the scripts neccessary -->
+    <!-- similar to the video lectures -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/calculator.css">
+    <script src="/js/calculator.js" defer></script>
+    <title>Grade Calculator</title>
+</head>
+<body>
+    <header id="h">
+    </header>
+    <main id="mainpart">
+        <section class= "border">
+        <!-- division for the gray color border -->
+        <div class="color-div-top"></div> 
+        <!-- First Container (The white screen section) -->
+        <section class="con1">
+            <!-- the container inside the container(the blue box section) -->
+            <section class="container">
+                <h2 id="title">Grade Calculator</h2>
+                <section class="sec1">
+                    <h2>Activities</h2>
+                    <h3>Give Grades to the numeric activities: </h3>
+                    <!-- creation of the table -->
+                    <table>
+                        <tr><th>Name</th><th>Short Name</th><th>Weight</th><th>Grade</th><th>Percent</th></tr>
+                        <tr class ="gradeRow"><td>Activity 1</td><td>A1</td><td><input name="weight" type="text"></td><td><input name="grade1" type="text"> / <input name="grade2" type="text"></td><td id="percent"> </td></tr>
+                    </table>
+                    <br>
+                    <!-- created the neccessary button -->
+                    <button id="addRow" onclick = "addRow()">ADD ROW</button>
+                    <h2 id="Result">Result</h2>
+                    <h2 id = "resultant"></h2>
+                    <!-- line break for aetheticness -->
+                    <br>
+                    <br>
+                    <br>
+                    <button id="weight" onclick="calculateWeighted()">WEIGHTED</button>
+                    <button id="mean" onclick="calculateMean()">MEAN</button>
+                </section>
+            </section>
+        </section>
+        <!-- bottom color division -->
+        <div class="color-div-bottom"></div> 
+    </section>
+    </main>
+    <footer>
+        <!-- no footer since there was no footer in the example image -->
+    </footer>
+</body>
+</html> <!--end of code-->
