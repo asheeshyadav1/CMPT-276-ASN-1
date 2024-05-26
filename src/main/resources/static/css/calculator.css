@@ -11,6 +11,9 @@ html, body, title{
     margin: 0;
     padding: 0;
 }
+body {
+    zoom: 0.9;
+}
 
 /* This is for 2nd Container(the container thats insde of another container) */
 .sec1{
